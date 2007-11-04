@@ -55,7 +55,7 @@
       (update-front-array-until o index))))
 
 (defmethod sequence:length ((o captured-stream))
-  (length (cstr-array o)))
+  (array-dimension (cstr-array o) 0))
 
 (defmethod sequence:elt ((o captured-stream) index)
   (ensure-captured-stream-fill o index)
