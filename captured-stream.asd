@@ -6,4 +6,6 @@
 (defsystem :captured-stream
   :depends-on ()
   :components
-  ((:file "captured-stream")))
+  ((:file "packages")
+   ;;
+   (:file "captured-stream" :depends-on "packages")))

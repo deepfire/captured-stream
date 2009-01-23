@@ -18,14 +18,6 @@
 ;;; Free Software Foundation, Inc., 59 Temple Place - Suite 330,
 ;;; Boston, MA  02111-1307  USA.
 
-(defpackage captured-stream
-  (:use :common-lisp)
-  (:export
-   make-captured-stream
-   disconnect-captured-stream
-   captured-stream-vector
-   ensure-captured-stream-fill))
-
 (in-package :captured-stream)
 
 (defclass captured-stream (sequence standard-object)
