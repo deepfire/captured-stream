@@ -1,7 +1,4 @@
-(defpackage :captured-stream.system
-  (:use :cl :asdf))
-
-(in-package :captured-stream.system)
+;;; -*- Mode: Lisp; indent-tabs-mode: nil -*-
 
 (defsystem :captured-stream
   :depends-on ()
