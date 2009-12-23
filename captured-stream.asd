@@ -1,7 +1,6 @@
 ;;; -*- Mode: Lisp; indent-tabs-mode: nil -*-
 
-(defsystem :captured-stream
-  :depends-on ()
+(asdf:defsystem :captured-stream
   :components
   ((:file "packages")
    ;;
